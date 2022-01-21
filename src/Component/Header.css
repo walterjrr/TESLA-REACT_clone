@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    padding: 15px 100px;
+}
+
+.tesla_name {
+    font-size: 30px;
+    align-items: center;
+    font-family: 'TESLA';
+    margin-right: 144px;
+    font-weight: 400;
+    font-size: 28px;
+}
+.tesla_name:hover {
+    background-color:  rgba(156, 153, 153, 0.342);
+    border-radius: 20px;
+}
+
+
+.cars_models {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 200px;
+    font-size: 30px;
+    font-weight: 200;
+    cursor: pointer; 
+}
+
+.menu:hover {
+    background-color: rgba(156, 153, 153, 0.342);
+    border-radius: 20px;
+}
+
+li {
+    margin-left: 40px;
+    list-style: none;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: rgba(156, 153, 153, 0.342);
+    border-radius: 20px;
+    text-align: center;
+}
