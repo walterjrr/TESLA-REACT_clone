@@ -1,6 +1,16 @@
+
+
 .header {
     display: flex;
     padding: 15px 100px;
+    position: fixed;
+    top: 0;
+    background-color: rgba(1, 1, 1, 0.0) !important;
+    opacity: 0.5 !important;
+    background-color: transparent !important;
+    height: 10vh;
+    
+
 }
 
 .tesla_name {
@@ -47,7 +57,7 @@ li {
 }
 
 li:hover {
-    background-color: rgba(156, 153, 153, 0.342);
+    background-color: rgba(200, 200, 200, 0.4);
     border-radius: 20px;
     text-align: center;
 }
