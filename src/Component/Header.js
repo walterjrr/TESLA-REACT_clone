@@ -7,10 +7,10 @@ const Header = () => {
                 
                 <h1 className='tesla_name'>Tesla</h1>
                 <ul className='cars_models'>
-                    <li>Model 3</li>
-                    <li>Model X</li>
-                    <li>Model S</li>
-                    <li>Model Y</li>
+                    <li><a href="#model3">Model 3</a></li>
+                    <li><a href="#modelx">Model X</a></li>
+                    <li><a href="#model-s">Model S</a></li>
+                    <li><a href="#modely">Model Y</a></li>
                 </ul>
                 <div className='menu'>
                     <h3>Menu</h3>

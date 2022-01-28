@@ -2,3 +2,7 @@
    font-family: 'TESLA';
    src: local('TESLA'), url('.//fonts/TESLA.ttf');
 }
+
+html{
+   scroll-behavior: smooth;
+}

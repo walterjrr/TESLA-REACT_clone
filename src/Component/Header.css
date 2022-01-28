@@ -56,6 +56,12 @@ li {
     cursor: pointer;
 }
 
+li a{
+    list-style-type: none ;
+    text-decoration: none;
+    color: black;
+}
+
 li:hover {
     background-color: rgba(200, 200, 200, 0.4);
     border-radius: 20px;
