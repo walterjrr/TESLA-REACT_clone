@@ -67,3 +67,10 @@ li:hover {
     border-radius: 20px;
     text-align: center;
 }
+
+@media (max-width: 967px) {
+    .cars_models {
+      display: none;    
+    }
+    
+  }

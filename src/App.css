@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -79,4 +77,12 @@
     background-color: black;
     color: white;
     margin-right: 45px;
+}
+
+
+@media (max-width: 900px) {
+  .order, .inventory {
+    top: 890px;    
+  }
+  
 }
