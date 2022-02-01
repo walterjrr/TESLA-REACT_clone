@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer li {
+    list-style-type: none;
+}

@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './Component/Header'
-
+import Footer from './Component/Footer'
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
           <button className='order'>CUSTOM ORDER</button>
           <button className='inventory'>EXISTING INVENTORY</button>
         </div>
+      <Footer />
       </nav>
     </>
   )

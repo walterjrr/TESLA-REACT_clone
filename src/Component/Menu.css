@@ -1,0 +1,20 @@
+
+.Menu-Container li {
+    background-color: rgb(205 198 194);
+    padding: 0 50px 0 60px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    left: -155px;
+    bottom: 0px;
+    white-space: nowrap;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.Menu-Container li span {
+    font-size: 59px;
+    justify-content: flex-end;
+    color: #fff6f1;
+    cursor: pointer;
+}
