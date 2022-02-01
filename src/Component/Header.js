@@ -4,18 +4,7 @@ import './Menu.css'
 
 
 const Header = () => {
-    const [display, setDisplay] = useState('none')
-
-    
-    const handleOpenMenu = () => {
-        setDisplay('block')
-    }
-
-    const handleCloseMenu = () => {
-        if (display === 'block') {
-            setDisplay ('none')
-        }
-    }
+    const [display, setDisplay] = useState(false)
 
     return (
         <header className="header">
@@ -27,12 +16,12 @@ const Header = () => {
                 <li><a href="#modely">Model Y</a></li>
             </ul>
             <div className='menu'>
-                <h3 onClick={handleOpenMenu}>Menu</h3>
+                <h3 onClick={() => setDisplay(!display)}>Menu</h3>
             </div>
 
 
-            <ul className={"Menu-Container"} style={{display:display}}>
-                <li ><span onCLick={handleCloseMenu}>X</span></li>
+            <ul className={"Menu-Container"} style={{display: display ? 'block' : 'none'}}>
+                <li><span onClick={() => setDisplay(!display)}> X</span></li>
                 <li>Existing Inventory</li>
                 <li>Shop</li>
                 <li>Used Inventory</li>
