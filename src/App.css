@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
+html{
+    scroll-behavior: smooth;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 * {
+    -ms-overflow-style: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box; 

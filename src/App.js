@@ -31,7 +31,7 @@ function App() {
           <button className='order'>CUSTOM ORDER</button>
           <button className='inventory'>EXISTING INVENTORY</button>
         </div>
-      <Footer />
+        <Footer />
       </nav>
     </>
   )
