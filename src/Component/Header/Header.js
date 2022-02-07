@@ -20,7 +20,7 @@ const Header = () => {
             </div>
 
 
-            <ul className={"Menu-Container"} style={{display: display ? 'block' : 'none'}}>
+            <ul className={"Menu-Container"} style={{display: display ? 'flex' : 'none'}}>
                 <li><span onClick={() => setDisplay(!display)}> X</span></li>
                 <li>Existing Inventory</li>
                 <li>Shop</li>

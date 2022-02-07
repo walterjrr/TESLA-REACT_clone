@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import App from './App';
-import Shop from './Component/pages/Shop'
+import Shop from './Component/pages/Shop/Shop'
 
 
 import { render } from "react-dom";

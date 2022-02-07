@@ -7,19 +7,19 @@
 }
 
 
-.model3 {
+#model3 {
     background-image: url('../../imgs/car10.jpg');
 }
 
-.modelx {
+#modelx {
     background-image: url('../../imgs/modelx.jpg');
 }
 
-.modely {
+#modely {
     background-image: url('../../imgs/modely.jpg');
 }
 
-.model-s {
+#model-s {
     background-image: url('../../imgs/models.jpg');
 }
 
@@ -48,36 +48,31 @@
 .spanmodels {
     display: flex;
     justify-content: center;
-    color: rgba(73, 73, 73, 0.801);
+    color: #393C41;
     letter-spacing: 2px;
     font-size: 20px;
 }
-.order, .inventory {
+.order{
     position: relative;
-    top: 415px;
+    bottom: -421px;
     margin-bottom: 40px;
     border-radius: 20px;
     font-size: 30px;
     padding: 0 40px;
-    text-decoration: none;
     cursor: pointer;
     border: none;
-    text-align: center;
 }
-.order {
-    background-color: black;
+.order:nth-child(even) {
+    background-color: #393C41;
     color: white;
-    margin-right: 45px;
 }
 
-.order link {
+.order Link {
     text-decoration: none;
 }
 
-
-@media (max-width: 900px) {
-  .order, .inventory {
-    top: 890px;    
-  }
-  
+@media (max-width: 500px) {
+    .order{
+      top: 240px;    
+    }
 }
