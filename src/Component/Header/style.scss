@@ -1,0 +1,91 @@
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    display: flex;
+    padding: 1.5rem 10rem;
+    position: fixed;
+    top: 0;
+    background-color: rgba(1, 1, 1, 0.0) !important;
+    opacity: 0.5 !important;
+    height: 10vh;
+    .tesla_name {
+        font-family: 'TESLA';
+        font-weight: 400;
+        font-size: 4rem;
+
+        :hover {
+            background-color:  rgba(156, 153, 153, 0.342);
+            border-radius: 2rem;
+        }
+    }
+
+    .cars_models {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+
+        li {
+            margin-left: 4rem;
+            list-style: none;
+            font-size: 2.5rem;
+            cursor: pointer;
+
+            :hover {
+                background-color: rgba(200, 200, 200, 0.4);
+                border-radius: 2rem;
+                text-align: center;
+            }
+
+            a{
+                list-style-type: none ;
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+    .menu {
+        align-items: center;
+        cursor: pointer; 
+        position: fixed;
+        font-size: 1.8rem;
+        right: 2rem;
+        top: 0px;
+
+        :hover {
+            background-color: #393C41;
+            border-radius: 2rem;
+        }
+    }
+}
+
+.Menu-Container {
+    flex-direction: column;
+    list-style-type: none;
+    position: fixed;
+    right: 1.9rem;
+    font-size: 4rem;
+    text-align: center;
+    z-index: 1000 !important;
+    
+    li {
+        background-color: blanchedalmond;
+        cursor: pointer;
+        z-index: 1000 !important;
+    }
+}
+
+@media (max-width: 760px) {
+    .cars_models {
+      display: none;    
+    } 
+}
+
+@media (max-width: 400px) {
+    .menu {
+        margin-left: 80px;
+    } 
+}

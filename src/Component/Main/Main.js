@@ -1,5 +1,6 @@
-import './Main.css'
 import MainComponent from './MainComponent'
+
+import './style.scss'
 
 
 

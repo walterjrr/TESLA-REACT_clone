@@ -1,0 +1,16 @@
+* {
+  -ms-overflow-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Dongle', 'sans-serif';   
+}
+
+html{
+  scroll-behavior: smooth;
+  
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

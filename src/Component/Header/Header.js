@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import './Header.css'
-import './Menu.css'
+import './style.scss'
 
 
 const Header = () => {

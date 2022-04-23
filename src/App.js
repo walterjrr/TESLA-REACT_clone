@@ -1,7 +1,9 @@
-import './App.css';
+
 import Header from './Component/Header/Header'
-import Footer from './Component/Footer/Footer'
+
 import Main from './Component/Main/Main'
+
+import './styles/global.scss'
 
 import React from "react";
 
@@ -13,7 +15,6 @@ function App() {
         <Header />
         <Main />
       </nav>
-      <Footer />
     </>
   )
 }
