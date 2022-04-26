@@ -15,7 +15,7 @@ const Header = () => {
                 <li><a href="#modely">Model Y</a></li>
             </ul>
             <div className='menu'>
-                <h3 onClick={() => setDisplay(!display)}>Menu</h3>
+                <button onClick={() => setDisplay(!display)}>Menu</button>
             </div>
 
 

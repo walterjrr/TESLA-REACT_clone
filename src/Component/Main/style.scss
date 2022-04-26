@@ -37,7 +37,7 @@
 
   h1, h3 {
     position: relative;
-    top: 6.5rem;
+    top: 8.5rem;
   }
 
   h1 {
@@ -66,16 +66,8 @@
     padding: 0 4rem;
     cursor: pointer;
     border: none;
-
-    :nth-child(even) {
-      background-color: #393C41;
-      color: white;
-    }
+    margin-right: 1.5rem;
+    
   }
 }
 
-@media (max-width: 500px) {
-  .order{
-    top: 240px;    
-  }
-}

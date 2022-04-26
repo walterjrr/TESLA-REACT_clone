@@ -63,8 +63,8 @@ html {
           align-items: center;
   cursor: pointer;
   position: fixed;
-  font-size: 1.8rem;
-  right: 2rem;
+  font-size: 2.8rem;
+  right: 5rem;
   top: 0px;
 }
 
@@ -73,7 +73,7 @@ html {
   border-radius: 2rem;
 }
 
-.Menu-Container {
+.header .Menu-Container {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -84,23 +84,18 @@ html {
   font-size: 4rem;
   text-align: center;
   z-index: 1000 !important;
+  background-color: white;
 }
 
-.Menu-Container li {
-  background-color: blanchedalmond;
+.header .Menu-Container li {
+  margin-bottom: 5rem;
   cursor: pointer;
   z-index: 1000 !important;
 }
 
-@media (max-width: 760px) {
+@media (min-width: 500px) {
   .cars_models {
     display: none;
-  }
-}
-
-@media (max-width: 400px) {
-  .menu {
-    margin-left: 80px;
   }
 }
 /*# sourceMappingURL=style.css.map */
